@@ -55,7 +55,6 @@ void printMatrix(vector<vector<pair<int,char>>> &mat,int n,int m) {
 }
 
 int main() {
-	// your code goes here
 	string s1,s2;
 	cin>>s1>>s2;
 	int n=s1.size()+1,m=s2.size()+1;
@@ -68,3 +67,4 @@ int main() {
 	reverse(subsequence.begin(),subsequence.end());
 	cout<<"Subsequence: "<<subsequence<<endl;
 }
+
